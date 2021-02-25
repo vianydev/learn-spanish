@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9307198f9.js" crossorigin="anonymous"></script>
+    <title>Learn Spanish</title>
+</head>
+<body id="index">
+    <header>
+        <nav id="nav">
+
+            <ul class="menu">
+                <li><a class="menu-item" href="./index.html">Learn Spanish</a></li> 
+                <li><a class="menu-item" href="./about-me.html">About me</a></li>
+                <li><a class="menu-item" href="./contact.html">Contact</a></li>
+            </ul>
+
+            <div id="hamburger-menu">
+                <a class="menu-item" href="./index.html">Learn Spanish</a>
+                <a class="menu-item" href="./about-me.html">About me</a>
+                <a class="menu-item" href="./contact.html">Contact</a>
+            </div>
+
+            <a class="toggle" onclick="myFunction()">☰</a>
+            
+
+            <a class="button" href="./contact.html">Reserve your free class!</a>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section id="container">
+            <!-- Reserve-banner -->
+            <section id="section" class="reserve-banner">
+                <div class="title">
+                    <h1>Are you ready to start your Spanish journey?</h1>
+                    <h2>Reserve your first class is totally free!</h2>
+                    <a class="button-cta" href="./contact.html">I'm interested</a>
+                </div>
+            </section>
+
+            <!-- Prices section -->
+            <section id="section" class="plan-section">
+
+                <div class="title-plan">
+                <h2>Choose your plan</h2>
+                <hr class="plan">
+                <p>Every person has their way to learn, some people rather use a system focus on grammar others just want to have an informal conversation. Whenever is your preference, every class is adapted to give you a good learning experience. 
+                </p>
+                </div>
+
+                <div id="price-table">
+                    <div id="box">
+                        <div class="title-box">
+                            <div class="space"></div>
+                            <h3>Begginers</h3>
+                            <p class="description">If you don't have an idea where to start this plan is a good option for you.</p>
+                            <p class="price">$ <span>15</span> usd</p>
+                        </div>
+
+                        <div class="items-list">
+                            <hr class="line-list">
+                            <p>&#10004  Free resorces</p>
+                            <hr class="line-list">
+                            <p>&#10004  8 classes p/month</p>
+                            <hr class="line-list">
+                        </div>
+                        <a class="button-plan" href="./select-plan.html">Start today</a>
+                    </div>
+
+                    <div id="box">
+                        <div class="title-box">
+                            <div class="recommend">Recommended</div>
+                            <h3>Ready, set, speak</h3>
+                            <p class="description">Be confident in the language, improve your vocabulary and have a good time!</p>
+                            <p class="price">$ <span>15</span> usd</p>
+                            
+                        </div>
+
+                        <div class="items-list">
+                            <hr class="line-list">
+                            <p>&#10004  Free resorces</p>
+                            <hr class="line-list">
+                            <p>&#10004  12 classes p/month</p>
+                            <hr class="line-list">
+                        </div>
+                        <a class="button-plan" href="./select-plan.html">Start today</a>
+                    </div>
+
+                    <div id="box">
+                        <div class="title-box">
+                            <div class="space"></div>
+                            <h3>Custom Journey</h3>
+                            <p class="description">You can define how many hour you want to invest in your way to learn Spanish</p>
+                            <p class="price">$ <span>15</span> usd</p>
+                        </div>
+                        
+                         <div class="items-list">
+                            <hr class="line-list">
+                            <p>&#10004  Free resources</p>
+                            <hr class="line-list">
+                            <p>&#10004  Design your scheduled</p>
+                            <hr class="line-list">
+                        </div>
+                        <a class="button-plan" href="./select-plan.html">Start today</a>
+                    </div>
+                    
+                </div>
+            </section>
+        </section>   
+    
+    </main>
+    
+    <footer class="footer">
+        <p>Made with &#9829 for <a href="https://www.instagram.com/vianymoz">Moz Developer</a></p> 
+    </footer> 
+</body>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("hamburger-menu");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "flex";
+  }
+}
+</script>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9307198f9.js" crossorigin="anonymous"></script>
+    <title>Contact</title>
+</head>
+<body id="contact">
+    <header>
+        <nav id="nav">
+
+            <ul class="menu">
+                <li><a class="menu-item" href="./index.html">Learn Spanish</a></li> 
+                <li><a class="menu-item" href="./about-me.html">About me</a></li>
+                <li><a class="menu-item" href="./contact.html">Contact</a></li>
+            </ul>
+
+            <div id="hamburger-menu">
+                <a class="menu-item" href="./index.html">Learn Spanish</a>
+                <a class="menu-item" href="./about-me.html">About me</a>
+                <a class="menu-item" href="./contact.html">Contact</a>
+            </div>
+
+            <a class="toggle" onclick="myFunction()">☰</a>
+            
+
+            <a class="button" href="./contact.html">Reserve your free class!</a>
+            
+        </nav>
+    </header>
+    
+    <main id="main-section">
+
+         <!-- Hero-banner -->
+        <section class="contact-banner">
+            <div class="contact-title">
+                <h1>Begin your Spanish journey</h1>
+                <h2>Reserve your first class is totally free!</h2>
+            </div>
+        
+        </section>
+
+        <section id="form-section">
+
+            <div class="title-form">
+                <h2>Reserve your class</h2>
+                <hr>
+                <p>Fill the form with your seggestion of time, and I will contact you to scheduled your free class.
+                </p>
+            </div>
+
+            <div class="google-form">
+                <iframe class="select-plan reserve" 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSfiExypU8TL-UiUZaMwd_uuklpjHoX9fE2q0TcMMj7Ar3wT4w/viewform?embedded=true" 
+                frameborder="0" marginheight="0" marginwidth="0">Waiting…</iframe>
+
+            </div>
+
+        </section>
+
+        <section id="column-1"> 
+            <section class="contact">
+                <h2 class="contact">Contact me</h2>
+                <hr class="contact">
+            </section>
+
+            <section class="info-contact">
+                <div class="icons-contact">
+                    <a href="mailto:sumone.rruiz@gmail.com" target="_blank"><i id="icon-contact" class="far fa-envelope"></i></a>
+                </div>
+                <div class="icons">
+                    <a href="https://api.whatsapp.com/send?phone=529211446166" target="_blank"><i id="icon-contact" class="fab fa-whatsapp"></i></a>
+                </div>
+                <div class="icons">
+                    <a href="#" target="_blank"><i id="icon-contact" class="fab fa-instagram"></i></a>
+                </div>
+            </section>
+        </section>
+       
+    </main>
+    <footer class="footer">
+        <p>Made with &#9829 for <a href="https://www.instagram.com/vianymoz">Moz Developer</a></p> 
+    </footer> 
+</body>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("hamburger-menu");
+      if (x.style.display === "flex") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "flex";
+      }
+    }
+</script>
+</html>

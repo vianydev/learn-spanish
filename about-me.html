@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9307198f9.js" crossorigin="anonymous"></script>
+    <title>About me</title>
+</head>
+<body id="about-me">
+    <header>
+        <nav id="nav">
+
+            <ul class="menu">
+                <li><a class="menu-item" href="./index.html">Learn Spanish</a></li> 
+                <li><a class="menu-item" href="./about-me.html">About me</a></li>
+                <li><a class="menu-item" href="./contact.html">Contact</a></li>
+            </ul>
+
+            <div id="hamburger-menu">
+                <a class="menu-item" href="./index.html">Learn Spanish</a>
+                <a class="menu-item" href="./about-me.html">About me</a>
+                <a class="menu-item" href="./contact.html">Contact</a>
+            </div>
+
+            <a class="toggle" onclick="myFunction()">☰</a>
+            
+
+            <a class="button" href="./contact.html">Reserve your free class!</a>
+            
+        </nav>
+    </header>
+    
+    <main id="main-section">
+
+        <section id="container">
+            <!-- Hero-banner -->
+            <section class="about-banner">
+                <div class="about-title">
+                    <h1>Are you ready to start your Spanish journey?</h1>
+                    <h2>Reserve your first class is totally free!</h2>
+                </div>
+                
+                <a class="about-button" href="./contact.html">I'm interested</a>
+            </section>
+
+            <div class="about-me-title">
+                <h2>About me</h2>
+                <hr>
+            </div>
+
+            <section id="about-me-section"> 
+
+                <section class="about-me">
+                    <h3>Hello, my name is Monserrat but you can call me Monse</h3>
+                  
+                    <p>I'm from the beautiful country of Mexico. I've been teaching Spanish for more than 5 years.</p>
+                 
+                    <p>I had the opportunity to work on a ship, travel, and knowing amazing people from many different countries. This experience helped me to understand that although learning a new language is a challenge, the power to connect with people from different cultures is invaluable.</p>
+        
+                    <p>My teaching strategy is to develop every class focus on your way to learn, your goals, and the topics you are interested in. Don't worry if you don't know where to start, together we can find your learning path.</p>  
+              
+                    <p>I look forward to knowing you and walk with you on this adventure of learning Spanish</p>
+                </section>
+
+                <section class="profile-photo">
+                    <div class="photo"></div>
+                    
+                    <section class="contact-me">
+                        <div class="contact-me-icons">
+                            <a href="mailto:sumone.rruiz@gmail.com" target="_blank"><i id="icon" class="far fa-envelope"></i></a>
+                        </div>
+                        <div class="contact-me-icons">
+                            <a href="https://api.whatsapp.com/send?phone=529211446166" target="_blank"><i id="icon" class="fab fa-whatsapp"></i></a>
+                        </div>
+                        <div class="contact-me-icons">
+                            <a href="#"  target="_blank"><i id="icon" class="fab fa-instagram"></i></a>
+                        </div>
+                    </section>
+                </section>
+               
+
+            </section>
+
+        </section>
+        
+    </main>
+    <footer class="footer">
+            <p>Made with &#9829 for <a href="https://www.instagram.com/vianymoz">Moz Developer</a></p> 
+    </footer> 
+</body>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("hamburger-menu");
+      if (x.style.display === "flex") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "flex";
+      }
+    }
+</script>
+</html>
